@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(201, 254, 254);
+    display: flex;
+    flex-direction: column;
+    /* min-height: 100%;
+    height: 100%; */
+    margin: 0;
+}
+
+img {
+    clip-path: circle(34%);
+    display: flex;
+    justify-items: flex-end;
+    width: 500px;
+}
+
+h1 {
+    text-align: right;
+}
+
+header {
+    display: flex;
+    background-color: rgb(221, 130, 63);
+    border: 7px dotted;
+    border-color: antiquewhite;
+
+}
+
+
+main {
+    background-color: cornsilk;
+    padding: 30px;
+}
+
+footer {
+    background-color: bisque;
+    display: flex;
+    justify-content: space-evenly;
+    height: 90px;
+}
+
+a{
+    color: black;
+    font-size: large;
+}
+
+#grayCat{}
